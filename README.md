@@ -13,7 +13,7 @@
   <a href='https://byjiang.com/FitDiT/' style="margin: 0 2px;">
     <img src='https://img.shields.io/badge/Webpage-Project-silver?style=flat&logo=&logoColor=orange' alt='webpage'>
   </a>
-  <a href="https://byjiang.com/FitDiT/LICENCE" style="margin: 0 2px;">
+  <a href="https://raw.githubusercontent.com/BoyuanJiang/FitDiT/refs/heads/main/LICENSE" style="margin: 0 2px;">
     <img src='https://img.shields.io/badge/License-CC BY--NC--SA--4.0-lightgreen?style=flat&logo=Lisence' alt='License'>
   </a>
 </div>
