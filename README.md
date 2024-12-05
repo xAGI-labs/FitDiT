@@ -50,6 +50,11 @@ You can simpley get try-on mask by click **Step1: Run Mask** at the right side o
 After generating a suitable mask, you can get the try-on results by click **Step2: Run Try-on**. In the Try-on resolution drop-down box, you can select a suitable processing resolution. In our online demo, the default resolution is 1152x1536, which means that the input model image and garment image will be pad and resized to this resolution before being fed into the model.
 
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=BoyuanJiang/FitDiT&type=Date)](https://star-history.com/#BoyuanJiang/FitDiT&Date)
+
+
 ## Citation
 
 ```
@@ -63,3 +68,4 @@ After generating a suitable mask, you can get the try-on results by click **Step
       url={https://arxiv.org/abs/2411.10499}, 
 }
 ```
+
