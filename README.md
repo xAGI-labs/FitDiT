@@ -54,6 +54,9 @@ After generating a suitable mask, you can get the try-on results by click **Step
 
 [![Star History Chart](https://api.star-history.com/svg?repos=BoyuanJiang/FitDiT&type=Date)](https://star-history.com/#BoyuanJiang/FitDiT&Date)
 
+## Contact
+This model can only be used **for non-commercial use**. If you want to use it for commercial use or expect better results, please contact me at byronjiang@tencent.com
+
 
 ## Citation
 
