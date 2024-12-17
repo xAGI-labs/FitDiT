@@ -25,6 +25,7 @@
 
 
 ## Updates
+- **`2024/12/17`**: Inference code is released.
 - **`2024/12/4`**: Our [**Online Demo**](http://demo.fitdit.byjiang.com/) is released.
 - **`2024/11/25`**: Our [**Complex Virtual Dressing Dataset (CVDD)**](https://huggingface.co/datasets/BoyuanJiang/CVDD) is released.
 - **`2024/11/15`**: Our [**FitDiT paper**](https://arxiv.org/abs/2411.10499) is available.
