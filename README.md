@@ -10,6 +10,9 @@
   <a href="http://demo.fitdit.byjiang.com/" style="margin: 0 2px;">
     <img src='https://img.shields.io/badge/Demo-Gradio-gold?style=flat&logo=Gradio&logoColor=red' alt='Demo'>
   </a>
+  <a href='https://huggingface.co/BoyuanJiang/FitDiT' style="margin: 0 2px;">
+    <img src='https://img.shields.io/badge/Hugging Face-ckpts-orange?style=flat&logo=HuggingFace&logoColor=orange' alt='huggingface'>
+  </a>
   <a href='https://byjiang.com/FitDiT/' style="margin: 0 2px;">
     <img src='https://img.shields.io/badge/Webpage-Project-silver?style=flat&logo=&logoColor=orange' alt='webpage'>
   </a>
@@ -25,6 +28,7 @@
 
 
 ## Updates
+- **`2024/12/20`**: The FitDiT [**model weight**](https://huggingface.co/BoyuanJiang/FitDiT) is available.
 - **`2024/12/17`**: Inference code is released.
 - **`2024/12/4`**: Our [**Online Demo**](http://demo.fitdit.byjiang.com/) is released.
 - **`2024/11/25`**: Our [**Complex Virtual Dressing Dataset (CVDD)**](https://huggingface.co/datasets/BoyuanJiang/CVDD) is released.
@@ -51,6 +55,35 @@ You can simpley get try-on mask by click **Step1: Run Mask** at the right side o
 After generating a suitable mask, you can get the try-on results by click **Step2: Run Try-on**. In the Try-on resolution drop-down box, you can select a suitable processing resolution. In our online demo, the default resolution is 1152x1536, which means that the input model image and garment image will be pad and resized to this resolution before being fed into the model.
 
 
+## Local Demo
+First apply access of FitDiT [model weight](https://huggingface.co/BoyuanJiang/FitDiT), then clone model to *local_model_dir*
+
+### Enviroment
+We test our model with following enviroment
+```
+torch==2.3.0
+torchvision==0.18.0
+diffusers==0.31.0
+transformers==4.39.3
+gradio==5.8.0
+onnxruntime-gpu==1.20.1
+```
+
+### Run gradio locally
+```
+# Run model with bf16 without any offload, fastest inference and most memory
+python gradio_sd3.py --model_path local_model_dir
+
+# Run model with fp16
+python gradio_sd3.py --model_path local_model_dir --fp16
+
+# Run model with fp16 and cpu offload, moderate inference and moderate memory
+python gradio_sd3.py --model_path local_model_dir --fp16 --offload
+
+# Run model with fp16 and aggressive cpu offload, slowest inference and less memory
+python gradio_sd3.py --model_path local_model_dir --fp16 --aggressive_offload
+```
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=BoyuanJiang/FitDiT&type=Date)](https://star-history.com/#BoyuanJiang/FitDiT&Date)
@@ -60,7 +93,7 @@ This model can only be used **for non-commercial use**. If you want to use it fo
 
 
 ## Citation
-
+If you find our work helpful for your research, please consider citing our work.
 ```
 @misc{jiang2024fitditadvancingauthenticgarment,
       title={FitDiT: Advancing the Authentic Garment Details for High-fidelity Virtual Try-on}, 
