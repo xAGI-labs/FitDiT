@@ -7,6 +7,9 @@
   <a href="https://github.com/BoyuanJiang/FitDiT" style="margin: 0 2px;">
     <img src='https://img.shields.io/badge/GitHub-Repo-blue?style=flat&logo=GitHub' alt='GitHub'>
   </a>
+  <a href="https://huggingface.co/spaces/BoyuanJiang/FitDiT" style="margin: 0 2px;">
+    <img src='https://img.shields.io/badge/Space-ZeroGPU-orange?style=flat&logo=Gradio&logoColor=red' alt='Demo'>
+  </a>
   <a href="http://demo.fitdit.byjiang.com/" style="margin: 0 2px;">
     <img src='https://img.shields.io/badge/Demo-Gradio-gold?style=flat&logo=Gradio&logoColor=red' alt='Demo'>
   </a>
@@ -28,6 +31,7 @@
 
 
 ## Updates
+- **`2025/1/9`**: We provide a [**Huggingface Space**](https://huggingface.co/spaces/BoyuanJiang/FitDiT) of FitDiT, thanks for Huggingface community GPU grant for providing the GPU resources.
 - **`2024/12/20`**: The FitDiT [**model weight**](https://huggingface.co/BoyuanJiang/FitDiT) is available.
 - **`2024/12/17`**: Inference code is released.
 - **`2024/12/4`**: Our [**Online Demo**](http://demo.fitdit.byjiang.com/) is released.
