@@ -1,4 +1,4 @@
-# FitDiT: Advancing the Authentic Garment Details for High-fidelity Virtual Try-onon
+# FitDiT: Advancing the Authentic Garment Details for High-fidelity Virtual Try-on
 
 <div style="display: flex; justify-content: center; align-items: center;">
   <a href="https://arxiv.org/abs/2411.10499" style="margin: 0 2px;">
