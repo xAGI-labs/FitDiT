@@ -93,7 +93,7 @@ python gradio_sd3.py --model_path local_model_dir --fp16 --aggressive_offload
 [![Star History Chart](https://api.star-history.com/svg?repos=BoyuanJiang/FitDiT&type=Date)](https://star-history.com/#BoyuanJiang/FitDiT&Date)
 
 ## Contact
-This model can only be used **for non-commercial use**. If you want to use it for commercial use or expect better results, please contact me at byronjiang@tencent.com
+This model can only be used **for non-commercial use**. For commercial use, please visit [Tencent Cloud](https://cloud.tencent.com/document/product/1668/108532) for support.
 
 
 ## Citation
