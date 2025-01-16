@@ -31,6 +31,7 @@
 
 
 ## Updates
+- **`2025/1/16`**: We provide the [ComfyUI version of FitDiT](https://github.com/BoyuanJiang/FitDiT/tree/FitDiT-ComfyUI), you can use FitDiT in ComfyUI now.
 - **`2025/1/9`**: We provide a [**Huggingface Space**](https://huggingface.co/spaces/BoyuanJiang/FitDiT) of FitDiT, thanks for Huggingface community GPU grant for providing the GPU resources.
 - **`2024/12/20`**: The FitDiT [**model weight**](https://huggingface.co/BoyuanJiang/FitDiT) is available.
 - **`2024/12/17`**: Inference code is released.
