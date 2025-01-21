@@ -66,8 +66,8 @@ First apply access of FitDiT [model weight](https://huggingface.co/BoyuanJiang/F
 ### Enviroment
 We test our model with following enviroment
 ```
-torch==2.3.0
-torchvision==0.18.0
+torch==2.4.0
+torchvision==0.19.0
 diffusers==0.31.0
 transformers==4.39.3
 gradio==5.8.0
@@ -89,8 +89,18 @@ python gradio_sd3.py --model_path local_model_dir --fp16 --offload
 python gradio_sd3.py --model_path local_model_dir --fp16 --aggressive_offload
 ```
 
-## Star History
+## Third-Party Creations
+We found there've been some 3rd party applications or tutorial based on our FitDiT. Many thanks for their contribution to the community! 
+If you have any related work that you would like to see displayed, please submit it in the [issue](https://github.com/BoyuanJiang/FitDiT/issues/new).
+These projects have not been verified by us. If you have any questions, please seek help from the original project authors.
 
+### Tutorial
+- A tutorial of using the comfyui version of FitDiT, from [T8star-Aix](https://www.youtube.com/@T8star-Aix) at [youtube](https://www.youtube.com/watch?v=qBQtYYa-bvs)
+
+### Applications
+- Local one-click integration package of FitDiT, which can be found at [deepface forum](https://deepface.cc/thread-517-1-1.html)
+
+## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=BoyuanJiang/FitDiT&type=Date)](https://star-history.com/#BoyuanJiang/FitDiT&Date)
 
 ## Contact
