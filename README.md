@@ -95,7 +95,7 @@ If you have any related work that you would like to see displayed, please submit
 These projects have not been verified by us. If you have any questions, please seek help from the original project authors.
 
 ### Tutorial
-- A tutorial of using the comfyui version of FitDiT, from [T8star-Aix](https://www.youtube.com/@T8star-Aix) at [youtube](https://www.youtube.com/watch?v=qBQtYYa-bvs)
+- A tutorial of using the comfyui version of FitDiT, from `T8star-Aix` at [youtube](https://www.youtube.com/watch?v=qBQtYYa-bvs) or [bilibili](https://www.bilibili.com/video/BV1U4wpe6EkD/)
 
 ### Applications
 - Local one-click integration package of FitDiT, which can be found at [deepface forum](https://deepface.cc/thread-517-1-1.html)
