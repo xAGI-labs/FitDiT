@@ -24,6 +24,12 @@
   </a>
 </div>
 
+<p align="center">
+    👋 Join our <a href="resource/img/QQ_group.jpg" target="_blank">QQ Chat Group</a> 
+</p>
+<p align="center">
+
+
 **FitDiT** is designed for high-fidelity virtual try-on using Diffusion Transformers (DiT).
 <div align="center">
   <img src="resource/img/teaser.jpg" width="100%" height="100%"/>
